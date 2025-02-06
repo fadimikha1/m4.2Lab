@@ -27,3 +27,5 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+## Running
+To run this code, simply launch vscode with the livepreview app installed. Click on the html file called index.html, and then click on the livepreview button.

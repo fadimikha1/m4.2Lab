@@ -1,0 +1,71 @@
+footer{
+    border-color: green;
+  background-color: green;
+}
+body{
+    border-color: grey;
+  background-color: grey;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ChatGPT prompt used to help figure out the display and content attributes */
+.container {
+    display: flex;
+    justify-content: space-between; /* Spaces them out */
+    width: 90%; /* Adjust width of content */
+    margin: 20px auto; /* Centers the content */
+}
+
+header{
+border-color: green;
+  background-color: green;
+  padding: auto;
+  text-align: center;
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  
+}
+nav{
+    border-color: green;
+  background-color: green;
+  width: 100%;
+  
+}
+
+/* used chatgpt prmpt for how to centrlly allign links in a header to figure this out*/
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: xx-large;
+}
+
+header h1{
+    font-style: italic;
+}
+
+main{
+    border-color: green;
+  background-color: green;
+  padding: 20px;
+ float: left;
+ max-width: 900px;
+
+
+}
+
+section{border-color: green;
+    background-color: green;
+    padding: 20px;
+   float: left;
+  
+  
+  }
+
+
+
+/* also used https://www.w3schools.com/html/html_layout.asp for inspiration on css layouts */
